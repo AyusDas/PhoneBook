@@ -46,6 +46,7 @@ class UserInterface():
         self._name_label = tk.Label(frame1, text = "Name", fg = "white", bg = "black")
         self.result_label = tk.Label(frame1, text = "Search Result", fg = "white", bg = "black")
 
+        
     def pack_widgets(self):
 
         self.add_contact_button.pack(padx = 40, pady = 15)
